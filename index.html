@@ -7,28 +7,27 @@
       <link rel="stylesheet" href="style.css">
 </head>
 <body>
-      <div>
+      <div class="container">
+            <div> 
             <h1>
                   Generate a 
                   <br><span class="password">  Random password</span> 
             </h1>
-            <p>
+            <p class="p-text">
                   Never use an insecure password again.
             </p>
-      </div>
+       </div>
 
-      <div>
-            <button class="button" onclick="newButton()">Generate password</button>
-      </div>
+       <div class="btn">
+            <button class="button" onclick="newButton()">Generate passwords</button>
+       </div>
 
-      <hr>
+       <hr>
 
-      <div>
-            <input id="input-el2" type="text" placeholder="Password">
-      </div>
-
-      <div>
-            <input id="input-el1" type="text" placeholder="Password">
+       <div class="utput">
+            <input id="input-el2" class="utput-el" type="text" placeholder="Password">
+      
+            <input id="input-el1" class="utput-el" type="text" placeholder="Password">
       </div>
   <script src="index.js"></script>    
 </body>
