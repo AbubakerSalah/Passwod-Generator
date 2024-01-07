@@ -44,14 +44,14 @@ h1 {
       background: #10B981;
       box-shadow: 1px 1px  3px #10B981;
       margin-top: 20px;
-      font-size: 16px;
+      font-size: 18px;
       padding: 13px;
       color: #FFFFFF;
-      font-weight: bold;
+      
 }
 
 .button:hover {
-      background-color: #5ab899;
+      background-color: #0e9e6e;
       cursor: pointer;
 }
 
@@ -79,4 +79,5 @@ h1 {
       margin-right: 13px;
       font-family:sans-serif;
       letter-spacing: 1px;
+      font-size:large;
 }
