@@ -1,1 +1,1 @@
-Random Password-Generator built with HTML,CSS and JavaScript.
+Password generator app build with HTML, CSS and Vanilla Javascript.
