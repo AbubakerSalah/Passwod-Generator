@@ -1,91 +1,70 @@
 body {
-      margin: 0 auto;
-      padding: 0;
-      display: block;
-      justify-content: center;
-      align-items: center;
-      text-align: left;
-      background-color: #201f1f;
-}
-h1 {
-      color:#5DEF92;
-      font-size: 40px;
-      
-      
+  margin: 0 auto;
+  padding: 0;
+  text-align: left;
+  background-color: #1a1919;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+h1 {
+  color: #5def92;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+span {
+  text-transform: lowercase;
+}
 
 .password {
-      color: #dad6df;
-      font-size: 43px;
+  color: #f2f2f6;
+  font-size: 43px;
 }
 
 .container {
-      margin-top: 0px;
-      margin-left: 0px;
-      margin-right: 0px;
-      background: rgb(155,180,58);
-      background-color: #1a1919;
-      border: 1px  solid #696565;
-      border-radius: 5px;
-      min-width: 100px;
-      height: 800px;
-      padding: 55px;
-      
+  min-width: 100px;
+  padding: 55px;
 }
 
 .p-text {
-      color:#54de86;
-      letter-spacing: 1px;
-      font-size: 21px;
-      
+  color: #54de86;
+  letter-spacing: 1px;
+  font-size: 21px;
 }
 
 .button {
-      border: 1px solid #32b287;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      border-radius: 5px;
-      background: #138d64;
-      box-shadow: 1px 1px  3px #012703;
-      margin-top: 20px;
-      font-size: large;
-      padding: 15px;
-      color: #e7e9f1;
-      text-transform: uppercase;
-      padding: 19px;
-      
+  border: 0px solid #54de86;
+  border-radius: 5px;
+  background: #138d64;
+  box-shadow: 1px 1px 3px #012703;
+  margin-top: 20px;
+  font-size: large;
+  padding: 19px;
+  color: #e7e9f1;
+  text-transform: uppercase;
 }
 
 .button:hover {
-      background-color: #0fb27c;
-      cursor: pointer;
-}
-
-.button:active {
-      background-color: #27926e;
+  background-color: #029866;
+  cursor: pointer;
 }
 
 .btn {
-      margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .utput {
-      margin-top: 25px;
-      text-align: left;
+  margin-top: 25px;
+  text-align: left;
 }
 
 .utput-el {
-      background-color: #273549;
-      border: 0px solid #273549;
-      border-radius: 6px;
-      color: #5DEF92;
-      text-align: center;
-      padding: 19px;
-      margin: 5px;
-      margin-right:10px;
-      margin-left: 0px;
-      font-family:sans-serif;
-      letter-spacing: 1px;
-      font-size:large;
-      
+  background-color: #273549;
+  border: 0px solid #273549;
+  border-radius: 6px;
+  color: #f0f1fd;
+  padding: 19px;
+  margin-right: 10px;
+  font-size: large;
+  text-align: center;
 }
