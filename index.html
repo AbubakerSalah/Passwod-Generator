@@ -1,37 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-      <title>Password Generator</title>
-      <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Smythe&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Password Generater</title>
 </head>
-
 <body>
-      <div class="container">
-            <div>
-                  <h1>
-                        Generate a
-                        <br><span class="password"> Random password</span>
-                  </h1>
-                  <p class="p-text">
-                        Never use an insecure password again.
-                  </p>
-            </div>
-
-            <div class="btn">
-                  <button class="button" onclick="newButton()">Generate password</button>
-            </div>
-
-            <hr>
-
-            <div class="utput">
-                  <input id="input-el2" class="utput-el" type="text" placeholder="Password">
-
-                  <input id="input-el1" class="utput-el" type="text" placeholder="Password">
-            </div>
-            <script src="index.js"></script>
-</body>
-
+    <div class="container">
+     <h1>Generate a <br><span class="text-h1"> random password</span></h1>
+      <p>Never use an insecure password again.</p>
+       <div>
+        <span id="length">Password length:</span>
+        <input id="input-value" type="text">
+       </div>
+       
+        <button id="btn-el">
+          Genarate password
+        </button>
+       <div class="utput-container">
+         <p class="utput-el" id="utput-el"></p>
+         <p class="utput-el" id="utput-el2" ></p>
+       </div>
+    </div> 
+     <script src="index.js"></script>
+ </body>
 </html>
